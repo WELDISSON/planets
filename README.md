@@ -40,34 +40,36 @@ $ npm t
 ## Usage:
 ### Create a planet
 ```
-    POST http://localhost:3000/api/planets
-     body {
-            name: PlanetName, climate: PlanetClimate, terrain: PlanetTerrain
-        }
+    POST http://localhost:{APP_PORT}/api/planets
+     body = {
+                name: PlanetName, 
+                climate: PlanetClimate, 
+                terrain: PlanetTerrain
+            }
 ```
 
 ---
 ### Get all planets
 ```
-    GET http://localhost:3000/api/planets
+    GET http://localhost:{APP_PORT}/api/planets
 ```
 
 ---
 ### Get by ID
 ```
-    GET http://localhost:3000/api/planets/{planetId}
+    GET http://localhost:{APP_PORT}/api/planets/{planetId}
 ```
 
 ---
 ### Get by name
 ```
-    GET http://localhost:3000/api/planets/name/{planetName}
+    GET http://localhost:{APP_PORT}/api/planets/name/{planetName}
 ```
 
 ---
 ### Remove Planet by ID
 ```
-    DELETE http://localhost:3000/api/planets/{planetId}
+    DELETE http://localhost:{APP_PORT}/api/planets/{planetId}
 ```
 
 ---
