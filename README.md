@@ -4,6 +4,15 @@
 - npmjs
 
 ---
+## write .env:
+- options:
+  ```
+    DB_HOST 
+    DB_PORT
+    DB_USER
+    DB_PASS
+    APP_PORT
+  ```
 ## install:
 ```
 $ npm i
