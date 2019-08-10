@@ -46,8 +46,9 @@ $ npm t
                 climate: PlanetClimate, 
                 terrain: PlanetTerrain
             }
-```
 
+```
+- PlanetName can be found at : https://swapi.co/api/planets/
 ---
 ### Get all planets
 ```
