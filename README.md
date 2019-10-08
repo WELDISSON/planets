@@ -53,6 +53,8 @@ $ npm t
 ### Get all planets
 ```
     GET http://localhost:{APP_PORT}/api/planets
+    params: page
+    exemple: http://localhost:{APP_PORT}/api/planets?page=2
 ```
 
 ---
