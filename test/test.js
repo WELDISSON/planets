@@ -35,7 +35,6 @@ describe('CRUD planet', () => {
         });
     });
     it('request should return as expected ', done => {       
-        console.log(url);
         request(url)
         .get('/api/planets/')
         .expect('Content-Type', /json/)
