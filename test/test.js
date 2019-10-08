@@ -31,7 +31,7 @@ describe('CRUD planet', () => {
                     console.log(err.details);
             }
             assert.equal(err, null);
-            
+            done();
         });
     });
     it('request should return as expected ', done => {       
