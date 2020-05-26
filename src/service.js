@@ -9,7 +9,7 @@ const getMovieDetails= async (planet) => {
     }catch(err){
         log.error(err);
         err.status === 404;
-        return ('https://swapi.co not avaliable!');
+        return ('https://swapi.dev not avaliable!');
     }
     if(response.data.count > 0) {
         planet.numbersOfMovies = response.data.results[0].films.length;
