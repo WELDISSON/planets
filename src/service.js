@@ -2,7 +2,7 @@ const axios = require('axios');
 const log = require('knoblr');
 
 const getMovieDetails= async (planet) => {
-    let planetUrl = `https://swapi.co/api/planets?search=${planet.name}`;
+    let planetUrl = `https://swapi.dev/api/planets?search=${planet.name}`;
     try{
         var response = await axios.get(planetUrl)
 
